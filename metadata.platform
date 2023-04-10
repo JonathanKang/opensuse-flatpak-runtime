@@ -1,6 +1,6 @@
 [Runtime]
-name=org.openSUSE.Runtime/x86_64/1
-runtime=org.flatpak.Runtime/x86_64/1
+name=org.openSUSE.Platform/x86_64/1
+runtime=org.flatpak.Platform/x86_64/1
 sdk=org.openSUSE.Sdk/x86_64/1
 
 [Environment]
