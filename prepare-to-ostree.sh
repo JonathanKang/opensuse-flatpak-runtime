@@ -14,6 +14,7 @@ ln -s ../sysroot/ostree $TARGET/ostree
 ln -s ../sysroot/tmp $TARGET/tmp
 
 cp -r buildroot/usr $TARGET/usr
+rm -fr $TARGET/usr/etc
 cp -r buildroot/etc $TARGET/etc
 ln -s var/lib/rpm $TARGET/usr/share/rpm
 cp -r $TARGET/usr/local $TARGET/var/usrlocal
