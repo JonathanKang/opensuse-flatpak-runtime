@@ -1,7 +1,7 @@
 all: platform sdk
 
 clean:
-	rm -rf repo exportrepo
+	sudo rm -rf repo exportrepo
 	sudo rm -fr buildroot buildroot-prepare .commit-*
 
 PROXY=
